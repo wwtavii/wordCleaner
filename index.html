@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Editor</title>
+    <link rel="stylesheet" href="WordCleaner.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div>
+            <div>
+                <h1>DO SMTH I AINT KNOW</h1>
+            </div>
+            <div class="replace">
+                <div>
+                    <p>this</p>
+                    <input type="text" id="replaceThis">
+                </div>
+                <div>
+                    <p>with that</p>
+                    <input type="text" id="replaceWith">
+                </div>
+            </div>
+            <button class="btn" id="replaceBtn">
+                <h6>replace</h6>
+            </button>
+            <div class="deleteDiv">
+                <div>
+                    <p>delete elem</p>
+                    <input type="text" id="deleteText">
+                </div>
+
+                <button id="deleteBtn" class="btn">
+                    <h6>delete</h6>
+                </button>
+
+            </div>
+            <div class="textareaD">
+                <p>Text goes here</p>
+                <textarea class="textarea" name="Text" id="textHere"></textarea>
+            </div>
+            <div>
+                <button id="deleteAdBtn" class="btn">
+                    <h6>Delete Ad and symbols</h6>
+
+                </button>
+            </div>
+            <div>
+                <p id="wordCount">word count: 0</p>
+                <p id="characterCount">character count: 0</p>
+            </div>
+            <div class="copyClear">
+                <button id="copyBtn" class="btn">
+                    <h6>copy</h6>
+                </button>
+                <button id="ClearBtn" class="btn">
+                    <h6>clear text</h6>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <script src="WordCleaner.js"></script>
+</body>
+
+</html>
