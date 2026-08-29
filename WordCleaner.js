@@ -57,6 +57,7 @@ deleteAdBtn.addEventListener("click", function(){
     newText = newText.replaceAll("(", "");
     newText = newText.replaceAll("[", "");
     newText = newText.replaceAll("{", "");
+    newText = newText.replaceAll("Read without ads with Tea Pass · from $1.99 →", "");
     newText = newText.replace(/\s*\n\s*/g, " ");
     text.value = newText;
     updateCount();
